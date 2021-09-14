@@ -1,0 +1,361 @@
+body{
+    margin: 0%;
+}
+header{
+    background-color: black;
+    height: 80px;
+}
+.head-left{
+    float: left;
+}
+.head-left h1{
+    color: white;
+    font-size: 50px;
+    margin: 10px 0px 0px 70px;
+    display: inline-block;
+}
+.head-left p{
+    display: inline;
+    color: rgb(247, 239, 239);
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+}
+span{
+    color: red;
+}
+.head-right{
+    float: right;
+    margin-top: 0px;
+}
+.head-right li{
+    float: left;
+    border-left:1px solid #2e3b53;
+}
+.head-right a{
+    display: block;
+    line-height: 80px;
+    padding : 0px 30px 0px 30px;
+    color: white;
+    text-decoration: none;
+}
+.head-right a:hover{
+    background-color: rgba(37, 36, 36, 0.952);
+}
+ul{
+    list-style: none;
+}
+.clr{
+    clear: both;
+}   
+
+            /* introduction */
+.intro{
+    background: url('images/Tesla-Logo-Hero.jpg') no-repeat;
+    height: 600px;
+    background-size: cover;
+    margin-top: 0%;
+}
+.intro h1{
+    margin-top: 0px;
+    padding-top:200px;
+    font-size: 50px ;
+    text-align: center;
+    color: rgb(16, 22, 83);
+}
+.intro p{
+    font-size: 20px;
+    line-height: 1.6;
+    font-weight: 400;
+    max-width: 700px;
+    margin: auto;
+    text-align: center;
+    color: whitesmoke;
+}
+.btn {
+    display: inline-block;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 10px 55px;
+    margin: 50px 11px;
+    text-decoration: none;
+}
+.green {
+    background-color: #83c129;
+    box-shadow: 0 4px 0 #518719;
+    margin-left: 38%;
+}
+.blue {
+    background-color: #068fd5;
+    box-shadow: 0 4px #046b9f;
+}
+            /* images */
+
+.img{
+    height:180px;
+    width:280px; 
+    padding: 10px;
+    
+}
+
+.img1{
+    height:50px;
+    width: 50px;
+    padding: 5px 10px  ;
+    
+
+}
+.images{
+    display: flex;
+    flex-direction:row;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    justify-content: space-evenly   ;
+    
+}
+.bor{
+    border:solid gray 2px;
+    padding:2px;
+    margin:2%;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 5px 10px grey;
+}
+.subrow{
+    display: flex;
+    flex-direction: row;    
+}
+.model h2{
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+.model p{
+    margin: 0px 15px;
+}
+           /* artical */
+
+
+.container {
+    width: 1270px;
+    margin: 0 auto;
+}
+        
+.container:after,
+.rev:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.rev {
+    border-top: 2px solid #e7e7e7;
+    border-bottom: 2px solid #e7e7e7;
+    padding: 31px 0 0 0;
+    margin-bottom: 15px;
+}
+.sec {
+    float: left;
+    width: 352px;
+    height: 150px;
+    margin-left: 90px;
+    
+}
+.sec:first-child {
+    margin-left: 0;
+}
+
+.img-rev {
+    float: left;
+    width: 98px;
+    text-align: center;
+}
+.text {
+    float: right;
+    width: 234px;
+    padding-top: 4px;
+}
+.rev img {
+    border-radius: 50%;
+}
+.rev a {
+    color: #626e7e;
+}
+.rev span {
+    font-size: 14px;
+    color: #abb1bb;
+}
+.rev p {
+    margin: 4px 0 0;
+}
+
+.featured {
+    padding: 26px 0;
+    margin-bottom: 34px;
+}
+.featured * {
+    display: inline-block;
+    vertical-align: middle;
+}
+.featured ul li {
+    margin-right: 30px;
+}
+
+.featured .title {
+    margin-right: 20px;
+}
+.brand{
+    height: 70px;
+    width: 190px;
+}
+.art-img{
+    height: 90px;
+    width: 90px;
+}
+
+             /* footer */
+
+.foot{
+    /* height: 200px; */
+    background-color:#1a1e24 ;
+    margin-top: 0px;
+    padding-bottom: 10px;
+}
+.footnav{
+    float: left;
+}
+.bars{
+    display: inline-block;
+    margin-left: 15px;
+}
+.bars h3{
+    padding: 20px 0px 0px 50px;
+    margin-top: 0px;
+    font-size: 15px;
+    color: white;
+    font-weight: 800;
+    margin-bottom: 0px;
+}
+.bars li{
+    list-style: none;
+    padding-top: 5px;
+}
+.bars a{
+    color: whitesmoke;
+    font-weight: 100;
+    text-decoration: none;
+    font-size: 15px;
+    margin: 10px;
+}
+.bars a:hover{
+    color: orange;
+}
+.web {
+	float: right;
+	margin:30px 50px 79px 0px; 
+	padding:0;
+	list-style:none;
+}
+
+.web li {
+	display:inline-block;
+}
+
+.web li a {
+	width: 30px;
+	height: 30px;
+	font-size: 20px;
+	color: #ffffff;
+	background-color: transparent;
+}
+
+.copyright {
+	clear: right;
+	text-align: right;
+	line-height: 20px;
+	font-size: 12px;
+	color: #8e959c;
+}
+.copyright p {
+	color: #8e959c;
+	margin-right: 50px;
+}
+
+
+      /* Media query */
+@media screen and (max-width:1020px){
+    /* header */
+    .head-left h1{
+        margin: 10px 0px 0px 50px;
+    }
+    /* introduction */
+    .intro{
+        background: url('images/Tesla-Logo-Hero.jpg') no repeat;
+        background-size:100%;
+        height: 600px;
+        margin-top: 0%;
+    }
+    .green {
+        margin-left: 30%;
+    }
+    /* images  */
+        
+    .img{
+        height:150px;
+        width:255px; 
+        padding: 5px;
+        
+    }
+    .images{
+        justify-content: center; 
+    }
+    .bor{
+        width: 270px;
+    }
+
+    /* artical */
+    
+    .container {
+        width: 900px;
+    }
+
+    .rev {
+        padding: 31px 0 ;
+        margin-bottom: 15px;
+    }
+    .sec {
+        width: 252px;
+        height: 100px;
+        margin-left: 50px;
+        
+    }
+    .img-rev {
+        width: 70px;
+    }
+    .art-img{
+        height: 60px;
+        width: 60px;
+    }
+    .text {
+        width: 180px;
+        padding-top: 4px;
+    }
+    .featured ul li {
+        margin-right: 50px;
+        padding-top: 30px;
+    }
+
+    .title {
+        display: block;
+        text-align: center;
+        font-size: 30px;
+    }
+    .brand{
+        height: 70px;
+        width: 115px;
+    }
+
+}
